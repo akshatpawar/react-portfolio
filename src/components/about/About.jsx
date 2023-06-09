@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpeg'
 import {FiAward} from "react-icons/fi"
-import {FiUsers} from "react-icons/fi"
+// import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
 
 const About = () => {
@@ -25,11 +25,11 @@ const About = () => {
               <small>6+ months self learning</small>
             </a>
 
-            <a className='about__card'>
+            {/* <a className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>0</small>
-            </a>
+            </a> */}
 
             <a href="https://github.com/akshatpawar?tab=repositories" className='about__card'>
               <VscFolderLibrary className='about__icon'/>
