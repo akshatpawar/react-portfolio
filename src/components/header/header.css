@@ -18,6 +18,14 @@ header {
     justify-content: center;
 }
 
+/*:===== darkmode toggle =====:*/
+.darkmode {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
 /*:===== HEADER SOCIALS =====: */
 .header_socials{
     display: flex;
@@ -42,8 +50,8 @@ header {
     width: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 5rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    /* margin-top: 4rem; */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */

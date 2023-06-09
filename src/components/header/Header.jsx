@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './cta'
+import DarkMode from './darkmode'
 import ME from '../../assets/menew.png'
 import HeaderSocials from './HeaderSocials'
 
@@ -13,6 +14,7 @@ const Header = () => {
         <h5 className="text-light">Front-end Web Developer</h5>
         <CTA />
         <HeaderSocials/>
+        <DarkMode/>
         <div className="me">
           <img src={ME} alt="me" />
         </div>

@@ -25,6 +25,22 @@
     --container-width-sm: 90%;
 }
 
+[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-bg-variant: #e7e7e7;
+    --color-primary: #45a2e4;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #121212;
+    --color-light: rgba(0, 0, 0, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
