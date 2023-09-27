@@ -34,7 +34,7 @@ const About = () => {
             <a href="https://github.com/akshatpawar?tab=repositories" className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              {/* <small>10</small> */}
+              <small>5</small>
             </a>
           </div>
 

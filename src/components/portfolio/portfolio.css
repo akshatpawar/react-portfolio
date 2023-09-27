@@ -23,6 +23,11 @@
     overflow: hidden;
 }
 
+.portfolio__item-image img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 .portfolio__item h3 {
     margin: 1rem 0 1.5rem;
     text-align: center;

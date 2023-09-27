@@ -3,6 +3,8 @@ import './portfolio.css'
 import IMG1 from '../../assets/project1.png'
 import IMG2 from '../../assets/project2.jpg'
 import IMG3 from '../../assets/project3.jpg'
+import IMG4 from '../../assets/project4.png'
+import IMG5 from '../../assets/project5.png'
 
 const data = [
   {
@@ -20,11 +22,25 @@ const data = [
     demo: 'https://akshatpawar.github.io/linktree/'
   },
   {
-    id: 1,
+    id: 3,
     img: IMG3,
     title: 'Basic HTML CSS Portfolio',
     github: 'https://github.com/akshatpawar/akshatpawaar.github.io',
     demo: 'https://akshatpawar.github.io'
+  },
+  {
+    id: 4,
+    img: IMG4,
+    title: 'BMI Calculator JS',
+    github: 'https://github.com/akshatpawar/BMI-Calculator-JS',
+    demo: 'https://akshatpawar.github.io/BMI-Calculator-JS/'
+  },
+  {
+    id: 5,
+    img: IMG5,
+    title: 'Dino Game JS',
+    github: 'https://github.com/akshatpawar/dino-js-game',
+    demo: 'https://akshatpawar.github.io/dino-js-game/'
   },
 ]
 
