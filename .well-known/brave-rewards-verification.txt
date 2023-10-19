@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: akshatpawar.pages.dev
+Token: 344fccc8bb72c2cdca3f33e3c6c15bb9d495e956dde11df05f0c2c2c52c827a5
