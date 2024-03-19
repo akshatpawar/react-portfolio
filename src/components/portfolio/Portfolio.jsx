@@ -5,6 +5,7 @@ import IMG2 from '../../assets/project2.jpg'
 import IMG3 from '../../assets/project3.jpg'
 import IMG4 from '../../assets/project4.png'
 import IMG5 from '../../assets/project5.png'
+import IMG6 from '../../assets/project6.png'
 
 const data = [
   {
@@ -41,6 +42,13 @@ const data = [
     title: 'Dino Game JS',
     github: 'https://github.com/akshatpawar/dino-js-game',
     demo: 'https://akshatpawar.github.io/dino-js-game/'
+  },
+  {
+    id: 6,
+    img: IMG6,
+    title: 'Contact Manager',
+    github: 'https://github.com/akshatpawar/contact-app',
+    demo: 'https://contact-manager-19.vercel.app/'
   },
 ]
 
