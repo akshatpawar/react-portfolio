@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpeg'
+import ME from '../../assets/me-ai.webp'
 import {FiAward} from "react-icons/fi"
 // import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
@@ -22,7 +22,7 @@ const About = () => {
             <a className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>6+ months self learning</small>
+              <small>1+ year of self learning</small>
             </a>
 
             {/* <a className='about__card'>
@@ -38,7 +38,7 @@ const About = () => {
             </a>
           </div>
 
-          <p>Hey I'm Akshat, a self taught web developer. I'm a 3rd year undergrad student at SRM Institute of Science and Technology, Chennai. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies. I'm looking for opportunities to work on projects and learn new technologies. Feel free to contact me.
+          <p>Hey I'm Akshat, a self taught web developer. I'm a final year undergrad student at SRM Institute of Science and Technology, Chennai. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies. I'm looking for opportunities to work on projects and learn new technologies. Feel free to contact me.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
