@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className = "about__content">
           <div className="about__cards">
-            <a className='about__card'>
+            <a href="https://www.linkedin.com/in/akshatpawar/" className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Experience</h5>
               <small>1+ year of self learning</small>
@@ -34,11 +34,13 @@ const About = () => {
             <a href="https://github.com/akshatpawar?tab=repositories" className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>6</small>
+              <small>8</small>
             </a>
           </div>
 
-          <p>Hey I'm Akshat, a self taught web developer. I'm a final year undergrad student at SRM Institute of Science and Technology, Chennai. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies. I'm looking for opportunities to work on projects and learn new technologies. Feel free to contact me.
+          <p>Hey, I'm Akshat — a self-taught web developer and final-year undergraduate at SRM Institute of Science and Technology, Chennai (Class of 2025). I’m passionate about building impactful web applications and constantly exploring new technologies across domains like full-stack development and AI/ML. Over the past few years, I’ve worked on a variety of projects, ranging from interactive portfolios to object detection systems.
+
+I’m currently open to exciting full-time opportunities where I can contribute, learn, and grow as a developer. Let’s connect!
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
