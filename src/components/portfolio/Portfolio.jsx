@@ -8,8 +8,32 @@ import IMG5 from '../../assets/project5.png'
 import IMG6 from '../../assets/project6.png'
 import IMG7 from '../../assets/projectMM.png'
 import IMG8 from '../../assets/projectOD.png'
+import IMG9 from '../../assets/project9.png'
+import IMG10 from '../../assets/project10.png'
+import IMG11 from '../../assets/project11.png'
 
-const data = [
+export const projectData = [
+  {
+    id: 11,
+    img: IMG11,
+    title: 'PomodoIt - Habit Tracker / Focus Assist',
+    github: 'https://github.com/akshatpawar/PomodoIt',
+    demo: 'https://pomodoit-ap.vercel.app/'
+  },
+  {
+    id: 10,
+    img: IMG10,
+    title: 'NodeLink - Full-stack Video Conferencing App',
+    github: 'https://github.com/akshatpawar/NodeLink',
+    demo: 'https://github.com/akshatpawar/NodeLink'
+  },
+  {
+    id: 9,
+    img: IMG9,
+    title: 'TradeNovaX - Full-stack Trading Dashboard',
+    github: 'https://github.com/akshatpawar/TradeNovaX',
+    demo: 'https://tradenovax-frontend.onrender.com/'
+  },
   {
     id: 1,
     img: IMG8,
@@ -76,7 +100,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id, img, title, github, demo}) => {
+          projectData.map(({id, img, title, github, demo}) => {
             return (
               <article key={id} className='portfolio__item'>
               <div className='portfolio__item-image'>

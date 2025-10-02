@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsFillPatchCheckFill} from 'react-icons/bs'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 const Experience = () => {
   return (
@@ -9,96 +9,137 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className= "experience_frontend">
+
+        {/* Frontend Skills */}
+        <div className="experience_frontend">
           <h3>Frontend Development</h3>
-          <div className= "experience_content">
+          <div className="experience_content">
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>HTML5</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>CSS</h4>
-              <small className='text-light'>Experienced</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>CSS3 / SCSS</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>JavaScript</h4>
-              <small className='text-light'>Experienced</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>JavaScript (ES6+)</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>ReactJS</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <div className="experience_lang">
-        <h3>Programming</h3>
-          <div className= "experience_content">
-            <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Java</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>ReactJS</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Python</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Material-UI</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>C++</h4>
-              <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>C</h4>
-              <small className='text-light'>Beginner</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Bootstrap</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
             </article>
           </div>
         </div>
 
-        {/* <div className="experience_other">
-        <h3>Other Skills</h3>
-          <div className= "experience_content">
+        {/* Backend Skills */}
+        <div className="experience_backend">
+          <h3>Backend Development</h3>
+          <div className="experience_content">
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Canva</h4>
-              <small className='text-light'>Basic</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Node.js</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Figma</h4>
-              <small className='text-light'>Basic</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Express.js</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Photoshop</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>REST APIs</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill className='experience_details-icon'/>
-              <div><h4>Python</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>WebRTC</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Socket.IO</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
             </article>
           </div>
-        </div> */}
+        </div>
+
+        {/* Database & Cloud */}
+        <div className="experience_database">
+          <h3>Database & Cloud</h3>
+          <div className="experience_content">
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>SQL</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>MongoDB</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Cloud (Vercel, Render, OCI)</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Linux</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+          </div>
+        </div>
+
+        {/* Tools & Other */}
+        <div className="experience_tools">
+          <h3>Tools & Other Technologies</h3>
+          <div className="experience_content">
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Git & GitHub</h4>
+                <div className="skill-level"><div className="skill-level-fill experienced"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Postman</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Agile / Scrum</h4>
+                <div className="skill-level"><div className="skill-level-fill familiar"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Figma</h4>
+                <div className="skill-level"><div className="skill-level-fill familiar"></div></div></div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div className='skill-details'><h4>Photoshop / Canva</h4>
+                <div className="skill-level"><div className="skill-level-fill intermediate"></div></div></div>
+            </article>
+          </div>
+        </div>
+
       </div>
+
     </section>
   )
 }

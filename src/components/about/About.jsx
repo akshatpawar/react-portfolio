@@ -1,9 +1,10 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-ai.webp'
-import {FiAward} from "react-icons/fi"
+import { FiAward } from "react-icons/fi"
 // import {FiUsers} from "react-icons/fi"
-import {VscFolderLibrary} from "react-icons/vsc"
+import { VscFolderLibrary } from "react-icons/vsc"
+import { projectData } from '../portfolio/Portfolio'
 
 const About = () => {
   return (
@@ -11,16 +12,16 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className = "container about__container" >
-        <div className = "about__me ">
-          <div className = "about__me-image">
-            <img src={ME} alt = "About"/>
+      <div className="container about__container" >
+        <div className="about__me ">
+          <div className="about__me-image">
+            <img src={ME} alt="About" />
           </div>
         </div>
-        <div className = "about__content">
+        <div className="about__content">
           <div className="about__cards">
             <a href="https://www.linkedin.com/in/akshatpawar/" className='about__card'>
-              <FiAward className='about__icon'/>
+              <FiAward className='about__icon' />
               <h5>Experience</h5>
               <small>1+ year of self learning</small>
             </a>
@@ -32,15 +33,18 @@ const About = () => {
             </a> */}
 
             <a href="https://github.com/akshatpawar?tab=repositories" className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>8</small>
+              <small>{projectData.length}</small>
             </a>
           </div>
 
-          <p>Hey, I'm Akshat — a self-taught web developer and final-year undergraduate at SRM Institute of Science and Technology, Chennai (Class of 2025). I’m passionate about building impactful web applications and constantly exploring new technologies across domains like full-stack development and AI/ML. Over the past few years, I’ve worked on a variety of projects, ranging from interactive portfolios to object detection systems.
-
-I’m currently open to exciting full-time opportunities where I can contribute, learn, and grow as a developer. Let’s connect!
+          <p>
+            Hi, I’m Akshat Pawar. I’m passionate about creating meaningful digital experiences and turning ideas into real-world projects. I love optimizing workflows, creating intuitive user experiences, and learning new tools that push the boundaries of technology.
+            <br />
+            When I’m not coding, I enjoy staying updated with the latest tech trends, experimenting with side projects, and finding creative ways to solve problems. I’m always eager to take on new challenges and collaborate on projects that make an impact.
+            <br />
+            I’m always looking to collaborate on exciting projects and contribute to solutions that make an impact.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
