@@ -25,7 +25,7 @@ export const projectData = [
     img: IMG10,
     title: 'NodeLink - Full-stack Video Conferencing App',
     github: 'https://github.com/akshatpawar/NodeLink',
-    demo: 'https://github.com/akshatpawar/NodeLink'
+    demo: 'https://nodelink-4m9h.onrender.com/'
   },
   {
     id: 9,
