@@ -8,10 +8,10 @@ import {FaTwitter} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>AKSHAT</a>
+      <a href="/#" className='footer__logo'>AKSHAT</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
+        <li><a href="/#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
@@ -20,10 +20,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/akshatpawar/" target='_blank'><FaLinkedin/></a>
-        <a href="https://www.instagram.com/akshatpawar_" target='_blank'><FaInstagram/></a>
-        <a href="https://github.com/akshatpawar" target='_blank'><FaGithub/></a>
-        <a href="https://twitter.com/akshat19p" target='_blank'><FaTwitter/></a>
+        <a href="https://www.linkedin.com/in/akshatpawar/" target='_blank' rel='noreferrer'><FaLinkedin/></a>
+        <a href="https://www.instagram.com/akshatpawar_" target='_blank' rel='noreferrer'><FaInstagram/></a>
+        <a href="https://github.com/akshatpawar" target='_blank' rel='noreferrer'><FaGithub/></a>
+        <a href="https://twitter.com/akshat19p" target='_blank' rel='noreferrer'><FaTwitter/></a>
       </div>
 
       <div className="footer__copy">

@@ -33,19 +33,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>akshatisonline@gmail.com</h5>
-            <a href="mailto:akshatisonline@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:akshatisonline@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact__option-item'>
             <FaInstagram className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>akshatpawar_</h5>
-            <a href="https://www.instagram.com/akshatpawar_/" target='_blank'>Send a message</a>
+            <a href="https://www.instagram.com/akshatpawar_/" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact__option-item'>
             <TbBrandTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>akshatpawar</h5>
-            <a href="https://t.me/akshatpawar" target='_blank'>Send a message</a>
+            <a href="https://t.me/akshatpawar" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
 
         </div>
