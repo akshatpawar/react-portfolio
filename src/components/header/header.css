@@ -10,6 +10,14 @@ header {
     position: relative;
 }
 
+.header_container h2.preserve-h5 {
+    font-size: 0.83rem;
+}
+
+.header_container h2.preserve-h5.text-light {
+    color: var(--color-light);
+}
+
 /*:===== СТА =====:*/
 .cta {
     margin-top: 2.5rem;
@@ -69,9 +77,9 @@ header {
 
 /* ==== MEDIA QUERIES ( MEDIUM DEVICES ) ==== */
 @media screen and (max-width:1024px) {
-    header{
+    /* header{
         height: 68vh;
-    }
+    } */
 }
 /* ====== MEDIA QUERIES ( SMALL DEVICES ) ===== */
 

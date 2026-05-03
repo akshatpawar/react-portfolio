@@ -1,16 +1,16 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/project1.png'
-import IMG2 from '../../assets/project2.jpg'
-import IMG3 from '../../assets/project3.jpg'
-import IMG4 from '../../assets/project4.png'
-import IMG5 from '../../assets/project5.png'
-import IMG6 from '../../assets/project6.png'
-import IMG7 from '../../assets/projectMM.png'
-import IMG8 from '../../assets/projectOD.png'
-import IMG9 from '../../assets/project9.png'
-import IMG10 from '../../assets/project10.png'
-import IMG11 from '../../assets/project11.png'
+import IMG1 from '../../assets/project1.webp'
+import IMG2 from '../../assets/project2.webp'
+import IMG3 from '../../assets/project3.webp'
+import IMG4 from '../../assets/project4.webp'
+import IMG5 from '../../assets/project5.webp'
+import IMG6 from '../../assets/project6.webp'
+import IMG7 from '../../assets/projectMM.webp'
+import IMG8 from '../../assets/projectOD.webp'
+import IMG9 from '../../assets/project9.webp'
+import IMG10 from '../../assets/project10.webp'
+import IMG11 from '../../assets/project11.webp'
 
 export const projectData = [
   {
@@ -95,8 +95,8 @@ export const projectData = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2 className="preserve-h5">My Recent Work</h2>
+      <h3 className="preserve-h2">Portfolio</h3>
 
       <div className='container portfolio__container'>
         {

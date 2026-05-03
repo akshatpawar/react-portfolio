@@ -9,8 +9,8 @@ import { projectData } from '../portfolio/Portfolio'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h2 className="preserve-h5">Get To Know</h2>
+      <h3 className="preserve-h2">About Me</h3>
 
       <div className="container about__container" >
         <div className="about__me ">

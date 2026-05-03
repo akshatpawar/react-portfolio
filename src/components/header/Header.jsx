@@ -2,16 +2,16 @@ import React from 'react'
 import './header.css'
 import CTA from './cta'
 import DarkMode from './darkmode'
-import ME from '../../assets/menew.png'
+import ME from '../../assets/menew.webp'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
+        <h2 className="preserve-h5">Hello I'm</h2>
         <h1>Akshat Pawar</h1>
-        <h5 className="text-light">Software Developer</h5>
+        <h2 className="text-light preserve-h5">Software Developer</h2>
         <CTA />
         <HeaderSocials/>
         <DarkMode/>
