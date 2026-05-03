@@ -40,11 +40,18 @@ const About = () => {
           </div>
 
           <p>
-            Hi, I’m Akshat Pawar. I’m passionate about creating meaningful digital experiences and turning ideas into real-world projects. I love optimizing workflows, creating intuitive user experiences, and learning new tools that push the boundaries of technology.
+            Hey, I'm Akshat Pawar. I build things for the web, think too hard
+            about how to make them better, and have a habit of exploring whatever
+            catches my curiosity.
             <br />
-            When I’m not coding, I enjoy staying updated with the latest tech trends, experimenting with side projects, and finding creative ways to solve problems. I’m always eager to take on new challenges and collaborate on projects that make an impact.
+            I'm a fresher with hands-on experience in React and a growing passion
+            for GenAI and LLM tooling. I have a creative side that shows up in
+            how I approach design, problems, and projects. I don't just want to
+            build what's expected, I want to find a better way to build it.
             <br />
-            I’m always looking to collaborate on exciting projects and contribute to solutions that make an impact.
+            I'm eager to learn fast, take on real challenges, and work on things
+            that actually matter. If you're building something interesting, I'm
+            interested.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
